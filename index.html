@@ -15,7 +15,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'primary-des': 'rgba(255, 255, 255, 0.60)'
+                        'header-des': 'rgba(255, 255, 255, 0.60)',
+                        'main-des': 'rgba(19, 19, 24, 0.60)',
                     }
                 }
             }
@@ -35,7 +36,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="p-4 lg:px-28 lg:p-12">
+    <header class="p-4 lg:px-28 lg:py-10">
         <!-- nav -->
         <nav>
             <div class="navbar p-0 bg-base-100">
@@ -103,12 +104,53 @@
             </div>
             <div class="bg-black p-5 rounded-2xl mt-4 lg:absolute lg:bottom-8 lg:right-8">
                 <h1 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h1>
-                <p class="text-primary-des font-medium mt-4">
+                <p class="text-header-des font-medium mt-4">
                     We're more than just a team, we're a community.
                 </p>
             </div>
         </div>
     </header>
+    <main class="p-4 lg:px-28 lg:py-0">
+        <section>
+            <div class="border-y-2 border-dashed text-center py-4 lg:p-8">
+                <h1 class="text-black font-extrabold text-2xl lg:text-4xl">Professional Hockey's Club</h1>
+                <p class="text-main-des font-medium mt-4">
+                    Hockey's isn't just a club, it's a brotherhood forged in sweat and determination.
+                </p>
+            </div>
+            <!-- radial progress -->
+            <div class="flex flex-col gap-8 mt-4 lg:mt-10 lg:flex-row lg:justify-between">
+                <div class="text-center space-y-4">
+                    <div class="radial-progress" style="--value:80; color: red" role="progressbar">
+                        <span class="text-black font-extrabold text-xl">80%</span>
+                    </div>
+                    <h3 class="font-semibold text-xl">Prayer Facility</h3>
+                    <p class="text-main-des font-medium">A dedicated space for quiet reflection and pre-game rituals.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress" style="--value:85; color: yellow;" role="progressbar">
+                        <span class="text-black font-extrabold text-xl">85%</span>
+                    </div>
+                    <h3 class="font-semibold text-xl">Experienced Coach</h3>
+                    <p class="text-main-des font-medium">A seasoned mentor guiding you with wisdom and expertise.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress" style="--value:90; color: blue;" role="progressbar">
+                        <span class="text-black font-extrabold text-xl">90%</span>
+                    </div>
+                    <h3 class="font-semibold text-xl">Senior Player</h3>
+                    <p class="text-main-des font-medium">A pillar of support and inspiration.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress" style="--value:95; color: green;" role="progressbar">
+                        <span class="text-black font-extrabold text-xl">95%</span>
+                    </div>
+                    <h3 class="font-semibold text-xl">Training Ground</h3>
+                    <p class="text-main-des font-medium">Your sanctuary of sweat and determination.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
