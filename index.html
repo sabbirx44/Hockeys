@@ -17,6 +17,10 @@
                         clifford: '#da373d',
                         'header-des': 'rgba(255, 255, 255, 0.60)',
                         'main-des': 'rgba(19, 19, 24, 0.60)',
+                        'connect-1': 'rgba(188, 237, 109, 0.10)',
+                        'connect-2': 'rgba(253, 221, 95, 0.10)',
+                        'connect-3': 'rgba(98, 156, 243, 0.10)',
+                        'connect-4': 'rgba(19, 19, 24, 0.03)',
                     }
                 }
             }
@@ -148,6 +152,41 @@
                     </div>
                     <h3 class="font-semibold text-xl">Training Ground</h3>
                     <p class="text-main-des font-medium">Your sanctuary of sweat and determination.</p>
+                </div>
+            </div>
+        </section>
+        <!-- program -->
+        <section class="mt-10">
+            <div class="border-y-2 border-dashed text-center py-4 lg:p-8">
+                <h1 class="text-black font-extrabold text-2xl lg:text-4xl">Program Sections</h1>
+                <p class="text-main-des font-medium mt-4">
+                    We cater to every stage of the hockey journey, with programs designed to ignite passion.
+                </p>
+            </div>
+            <div class="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
+                <div class="flex relative">
+                    <img class="w-full" src="images/2.png">
+                    <div class="absolute space-y-4 bottom-3 left-3 lg:bottom-5 lg:left-5">
+                        <h1 class="text-white font-extrabold text-xl lg:text-3xl">Junior Program</h1>
+                        <p class="text-white text-sm lg:text-base">From tiny tots to puck prodigies, unleashing the love of the game.</p>
+                        <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div class="flex relative">
+                    <img class="w-full" src="images/3.png">
+                    <div class="absolute space-y-4 bottom-3 left-3 lg:bottom-5 lg:left-5">
+                        <h1 class="text-white font-extrabold text-xl lg:text-3xl">Teenager Program</h1>
+                        <p class="text-white text-sm lg:text-base">Skills soaring, future stars in the making.</p>
+                        <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div class="flex relative lg:col-span-2">
+                    <img class="w-full h-[180px] rounded-xl lg:h-[450px]" src="images/4.png">
+                    <div class="absolute space-y-4 bottom-3 left-3 lg:bottom-5 lg:left-5">
+                        <h1 class="text-white font-extrabold text-xl lg:text-3xl">Professional Program</h1>
+                        <p class="text-white text-sm lg:text-base">Sharpening blades, forging champions, chasing NHL dreams.</p>
+                        <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -359,7 +398,8 @@
                     Got questions? We've got answers!
                 </p>
             </div>
-            <div class="mt-10 flex flex-col border border-gray-200 rounded-2xl p-4 lg:p-8 lg:flex-row lg:justify-between lg:gap-8">
+            <div
+                class="mt-10 flex flex-col border border-gray-200 rounded-2xl p-4 lg:p-8 lg:flex-row lg:justify-between lg:gap-8">
                 <img class="lg:w-[450px]" src="images/11.png">
                 <div class="w-full">
                     <div class="collapse collapse-plus">
@@ -426,6 +466,71 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- connect -->
+        <section class="mt-10">
+            <div class="border-y-2 border-dashed text-center py-4 lg:p-8">
+                <h1 class="text-black font-extrabold text-2xl lg:text-4xl">Get In Touch</h1>
+                <p class="text-main-des font-medium mt-4">
+                    Ready to lace up? Contact us today and join the Hockey's family!
+                </p>
+            </div>
+            <div class="flex flex-col mt-10 gap-6 lg:flex-row lg:gap-8">
+                <!-- 1 -->
+                <div class="border border-gray-200 rounded-2xl grid gap-6 p-4 lg:p-12">
+                    <div class="bg-connect-1 grid justify-center align-middle h-52 p-8 rounded-2xl lg:w-96">
+                        <img src="images/phone.png">
+                        <h3 class="text-main-des">Phone Number :</h3>
+                        <h3>(+62) 123-321-543</h3>
+                    </div>
+                    <div class="bg-connect-2 grid justify-center align-middle h-52 p-8 rounded-2xl lg:w-96">
+                        <img src="images/message.png">
+                        <h3 class="text-main-des">Email :</h3>
+                        <h3>hockeys@support.com</h3>
+                    </div>
+                    <div class="bg-connect-3 grid justify-center align-middle h-52 p-8 rounded-2xl lg:w-96">
+                        <img src="images/location.png">
+                        <h3 class="text-main-des">Location :</h3>
+                        <h3>152/1 Mohakhali Wireless Gate</h3>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="space-y-6 lg:w-full">
+                    <div class="flex flex-col gap-6 lg:flex-row">
+                        <label class="form-control w-full space-y-4">
+                            <span class="font-bold text-xl">Your Name</span>
+                            <input type="text" placeholder="Enter your name" class="input w-full bg-connect-4" />
+                        </label>
+                        <label class="form-control w-full space-y-4">
+                            <span class="font-bold text-xl">Your Email</span>
+                            <input type="email" placeholder="Enter your email" class="input w-full bg-connect-4" />
+                        </label>
+                    </div>
+                    <div class="flex flex-col gap-6 lg:flex-row">
+                        <label class="form-control w-full space-y-4">
+                            <span class="font-bold text-xl">Subject</span>
+                            <input type="text" placeholder="Enter your subject" class="input w-full bg-connect-4" />
+                        </label>
+                        <label class="form-control w-full space-y-4">
+                            <span class="font-bold text-xl">Phone Number</span>
+                            <input type="number" placeholder="Enter your phone number"
+                                class="input w-full bg-connect-4" />
+                        </label>
+                    </div>
+                    <div>
+                        <label class="form-control space-y-4">
+                            <span class="font-bold text-xl">Message</span>
+                            <textarea class="textarea textarea-ghost bg-connect-4 h-52 lg:h-[420px]"
+                                placeholder="Write your message"></textarea>
+                        </label>
+                    </div>
+                    <button class="btn btn-wide w-full bg-[#FF4240] text-white">Send Message</button>
+                </div>
+            </div>
+            <div class="mt-10 grid justify-center bg-connect-4 p-9 gap-6 rounded-2xl">
+                <h2 class="text-center font-extrabold text-2xl">Social Media</h2>
+                <img src="images/Social.png">
             </div>
         </section>
     </main>
